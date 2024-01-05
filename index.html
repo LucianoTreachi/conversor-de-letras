@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de letras</title>
+  <meta name="description"
+    content="Herramienta online que transforma texto plano en caracteres UNICODE en tiempo real, permitiendo a los usuarios copiar y pegar el texto convertido en diversas redes sociales y plataformas.">
+  <meta name="author" content="Luciano Treachi">
+
+  <!-- Facebook -->
+  <meta property="og:title" content="Conversor de letras">
+  <meta property="og:description"
+    content="Herramienta online quetransforma texto plano en caracteres UNICODE en tiempo real, permitiendo a los usuarios copiar y pegar el texto convertido en diversas redes sociales y plataformas.">
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/LucianoTreachi/Conversor-de-letras/main/assets/readme-banner.jpg">
+  <meta property="og:image:alt" content="Banner">
+  <meta property="og:image:width" content="1880">
+  <meta property="og:image:height" content="939">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@LucianoTreachi">
+  <meta name="twitter:title" content="Conversor de letras">
+  <meta name="twitter:description"
+    content="Herramienta online qutransforma texto plano en caracteres UNICODE en tiempo real, permitiendo a los usuarios copiar y pegar el texto convertido en diversas redes sociales y plataformas.">
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/LucianoTreachi/Conversor-de-letras/main/assets/readme-banner.jpg">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <main>
+    <!-- SECTION 1 -->
+    <section class="section-1">
+      <div class="container">
+
+        <!-- Row 1 -->
+        <div class="row-1">
+          <h1 class="title">Conversor de Letras</h1>
+          <p class="paragraph">
+            ¡Convierte texto plano en texto estilizado para Redes Sociales u otras plataformas!
+          </p>
+          <div class="container-input">
+            <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z">
+              </path>
+            </svg>
+            <input class="input" name="input" type="text" placeholder="Escribe o pega tu texto aquí.">
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row-2">
+
+          <div class="outer-box">
+            <span>Sans Serif Negrita</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <span>Serif Negrita</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <span>Monoespaciado</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <span>Doble</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <span>Escritura</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <span>Escritura Negrita</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <span>Subrayado Simple</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <span>Subrayado Doble</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <span>Burbuja 1</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <span>Burbuja 2</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <span>Cuadrado 1</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="outer-box">
+            <span>Cuadrado 2</span>
+            <div class="inner-box">
+              <p class="output-text"></p>
+              <button class="copy-button">
+                <small>Copiar</small>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="section-2">
+      <div class="container">
+        <div class="box-question">
+          <h2>¿Cómo utilizo este conversor de letras?</h2>
+          <p>
+            Escribe algo en el recuadro de arriba, elige el tipo de letra que más te guste, presiona el
+            botón copiar, y pega el texto en tu red social de preferencia u otra plataforma.
+          </p>
+        </div>
+        <div class="box-question">
+          <h2>¿Qué función cumple este conversor de letras?</h2>
+          <p>
+            Es una herramienta que convierte texto plano a caracteres UNICODE (caracteres y símbolos de código
+            único).
+          </p>
+        </div>
+        <div class="box-question">
+          <h2>¿Qué es UNICODE?</h2>
+          <p>
+            UNICODE es un estándar de codificación que permite la representación de caracteres de diferentes escrituras,
+            siendo comprensible por todos los dispositivos y aplicaciones.
+          </p>
+        </div>
+        <div class="box-question">
+          <h2>¿UNICODE crea tipografías diferentes?</h2>
+          <p>
+            No, UNICODE son caracteres que abarcan prácticamente todos los sistemas de escritura del mundo, así como
+            símbolos, signos de puntuación y otros elementos.
+          </p>
+        </div>
+        <div class="box-question">
+          <h2>¿UNICODE funciona en todas las plataformas?</h2>
+          <p>
+            Generalmente sí, aunque algunos caracteres pueden no funcionar correctamente. Algunas plataformas filtran y
+            bloquean ciertos símbolos UNICODE para prevenir posibles abusos.
+          </p>
+        </div>
+        <div class="box-question">
+          <h2>¿Qué debo tener en cuenta si utilizo este conversor de letras?</h2>
+          <p>
+            • Ten cuidado al usar letras con acentos y otras puntuaciones como la ñ, ya que no se transforman.
+          </p>
+          <p>
+            • Sé precavido al utilizar signos de admiración, interrogación y otras puntuaciones, ya que no se
+            transforman.
+          </p>
+          <p>
+            • Evita textos excesivamente largos (más de 2 líneas). Un texto largo puede causar posibles ralentizaciones.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Desarrollado por Luciano Treachi</p>
+      <div class="footer-icons">
+        <a href="https://github.com/LucianoTreachi" target="_blank" aria-label="Ir a GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z">
+            </path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/luciano-treachi" target="_blank" aria-label="Ir a LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z">
+            </path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/convertSpecialFonts.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
