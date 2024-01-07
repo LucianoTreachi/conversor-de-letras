@@ -203,6 +203,14 @@ button {
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  position: relative;
+}
+
+.arrow-down {
+  position: absolute;
+  top: -10rem;
+  left: 0;
+  width: 3.6rem;
 }
 
 .section-2 .box-question {
@@ -235,8 +243,9 @@ button {
 }
 
 .footer p {
-  color: var(--text-color);
   font-size: 1.6rem;
+  color: var(--text-color);
+  opacity: .85;
 }
 
 .footer-icons {
