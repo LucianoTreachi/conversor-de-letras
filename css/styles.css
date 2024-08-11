@@ -72,21 +72,12 @@ button {
   position: relative;
 }
 
-.close-icon {
-  position: absolute;
-  top: 50%;
-  right: 1rem;
-  transform: translateY(-50%);
-  width: 25px;
-  height: 25px;
-  fill: #1b2027;
-  cursor: pointer;
-  background-color: var(--title-color);
-  border-radius: .5rem;
-}
-
-.close-icon:active {
-  opacity: .8;
+.label {
+  display: block;
+  font-size: 1.8rem;
+  color: var(--text-color);
+  opacity: 0.85;
+  margin-bottom: 1rem;
 }
 
 .input {
@@ -110,6 +101,28 @@ button {
 
 .input:focus {
   border: 2px solid #a6adbb90;
+}
+
+.close-button {
+  position: absolute;
+  top: 70%;
+  right: 1rem;
+  transform: translateY(-70%);
+  cursor: pointer;
+  background-color: var(--title-color);
+  border: none;
+  border-radius: .5rem;
+}
+
+.close-button:active {
+  opacity: .8;
+}
+
+.close-icon {
+  width: 25px;
+  height: 25px;
+  fill: #1b2027;
+  vertical-align: middle;
 }
 
 /* Row 2 */

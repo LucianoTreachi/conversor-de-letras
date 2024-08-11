@@ -1,6 +1,6 @@
 // DOM ELEMENTS
 const inputText = document.querySelector(".input");
-const closeIcon = document.querySelector(".close-icon");
+const closeButton = document.querySelector(".close-button");
 const outputText = document.querySelectorAll(".output-text");
 const copyButtons = document.querySelectorAll(".copy-button");
 
@@ -27,7 +27,7 @@ inputText.addEventListener("input", () => {
 });
 
 // RESET ALL VALUES
-closeIcon.addEventListener("click", () => {
+closeButton.addEventListener("click", () => {
   // Clear the input text value
   inputText.value = "";
 
