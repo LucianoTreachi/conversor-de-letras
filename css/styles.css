@@ -89,7 +89,7 @@ button {
   font-size: 1.8rem;
   color: var(--text-color);
   padding: 1.6rem;
-  padding-right: 4rem;
+  padding-right: 5rem;
   transition: .3s;
 }
 
@@ -104,13 +104,14 @@ button {
 }
 
 .close-button {
-  position: absolute;
-  top: 70%;
-  right: 1rem;
-  transform: translateY(-70%);
-  cursor: pointer;
-  background-color: var(--title-color);
   border: none;
+  background-color: var(--title-color);
+  width: 2.6rem;
+  height: 2.6rem;
+  position: absolute;
+  top: 4.6rem;
+  right: 1.6rem;
+  cursor: pointer;
   border-radius: .5rem;
 }
 
