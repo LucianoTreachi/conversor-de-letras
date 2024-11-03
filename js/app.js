@@ -1,6 +1,6 @@
 // DOM ELEMENTS
 const inputText = document.querySelector(".input");
-const closeButton = document.querySelector(".close-button");
+const deleteTextButton = document.querySelector(".delete-text-button");
 const outputText = document.querySelectorAll(".output-text");
 const copyButtons = document.querySelectorAll(".copy-button");
 
@@ -27,9 +27,12 @@ inputText.addEventListener("input", () => {
 });
 
 // RESET ALL VALUES
-closeButton.addEventListener("click", () => {
+deleteTextButton.addEventListener("click", () => {
   // Clear the input text value
   inputText.value = "";
+
+  // Focus on the input
+  inputText.focus();
 
   // Clear the inner text of each output paragraph
   outputText.forEach(output => {
