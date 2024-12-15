@@ -9,7 +9,9 @@
 ## Características
 
 - **Resultados en tiempo real**: Convierte texto plano en caracteres UNICODE de manera instantánea mientras se escribe.
+
 - **Diferentes estilos de letras**: Ofrece una amplia variedad de estilos y tipografías para personalizar el texto.
+
 - **Responsivo**: Se adapta perfectamente a cualquier dispositivo, desde computadoras hasta móviles.
 
 ## Pasos para utilizarlo
@@ -26,15 +28,17 @@
 
 [![Captura de pantalla del proyecto](https://i.postimg.cc/BQ7pyC0k/website.jpg)](https://postimg.cc/zVWTHK3F)
 
-## Comprueba cómo funciona
-
-Accede aquí → [Conversor de letras](https://conversordeletras.netlify.app/)
-
 ## Tecnologías utilizadas
 
 - **HTML:** Estructura y contenido.
+
 - **CSS:** Estilización y diseño responsivo.
+
 - **JavaScript:** Funcionalidad interactiva.
+
+## Comprueba cómo funciona
+
+Accede aquí → [Conversor de letras](https://conversordeletras.netlify.app/)
 
 ## Desarrollado por
 
