@@ -4,7 +4,7 @@
 
 ## Vista previa
 
-[![Captura de pantalla del proyecto](https://i.postimg.cc/ZRdZm6xb/website.jpg)](https://postimg.cc/ftD1jtPp)
+[![Captura de pantalla del proyecto](https://i.postimg.cc/PqPSJSbq/preview.png)](https://postimg.cc/061YHdBg)
 
 ## Características
 
