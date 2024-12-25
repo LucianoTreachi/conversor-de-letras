@@ -18,15 +18,15 @@
 
 **1.** Escribe o pega tu texto en el cuadro de entrada.
 
-[![Captura de pantalla del proyecto](https://i.postimg.cc/Wb4WJTxr/website.jpg)](https://postimg.cc/8sqB2QpP)
+[![Captura de pantalla del proyecto](https://i.postimg.cc/tTDLZpBH/conversor-1.png)](https://postimg.cc/mzzdKfxd)
 
 **2.** Elige un estilo de letra y presiona "Copiar".
 
-[![Captura de pantalla del proyecto](https://i.postimg.cc/1X7KKVbF/website.jpg)](https://postimg.cc/tnPPqJqR)
+[![Captura de pantalla del proyecto](https://i.postimg.cc/65FFGHfT/conversor-2.png)](https://postimg.cc/N57d3kVw)
 
 **3.** ¡Pega el texto en tu red social favorita y publica!
 
-[![Captura de pantalla del proyecto](https://i.postimg.cc/BQ7pyC0k/website.jpg)](https://postimg.cc/zVWTHK3F)
+[![Captura de pantalla del proyecto](https://i.postimg.cc/MpRN0y95/conversor-3.png)](https://postimg.cc/RWSg4n5J)
 
 ## Tecnologías utilizadas
 
