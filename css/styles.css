@@ -314,6 +314,10 @@ button:hover {
     height: 20px;
   }
 
+  .container-buttons button {
+    font-size: 1.4rem;
+  }
+
   .section-2 h2 {
     width: 100%;
   }
@@ -323,7 +327,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 340px) {
   html {
     font-size: 55%;
   }
