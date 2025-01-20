@@ -139,6 +139,8 @@ button:hover {
   padding: 1.5rem 1rem;
   border-radius: 0.8rem;
   font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.03em;
   flex-grow: 1;
 }
 
