@@ -135,6 +135,7 @@ button:hover {
 
 .container-buttons button {
   border: none;
+  background-color: lightblue;
   padding: 1.5rem 1rem;
   border-radius: 0.8rem;
   font-size: 1.6rem;
