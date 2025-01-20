@@ -39,6 +39,11 @@ button {
 
 button {
   cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+button:hover {
+  opacity: 0.85;
 }
 
 /* SECTION 1 */
@@ -111,12 +116,7 @@ button {
   position: absolute;
   top: 4.6rem;
   right: 1.6rem;
-  cursor: pointer;
   border-radius: .5rem;
-}
-
-.delete-text-button:active {
-  opacity: .8;
 }
 
 .delete-text-button svg {
@@ -124,6 +124,21 @@ button {
   height: 25px;
   fill: #1b2027;
   vertical-align: middle;
+}
+
+.container-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.container-buttons button {
+  border: none;
+  padding: 1.5rem 1rem;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  flex-grow: 1;
 }
 
 /* Row 2 */
@@ -283,6 +298,10 @@ button {
 /* RESPONSIVE */
 
 @media screen and (max-width: 600px) {
+  button:hover {
+    opacity: 1;
+  }
+
   .input::placeholder {
     font-size: 1.6rem;
   }

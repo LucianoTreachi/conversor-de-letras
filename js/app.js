@@ -1,6 +1,9 @@
 // DOM ELEMENTS
 const inputText = document.querySelector(".input");
 const deleteTextButton = document.querySelector(".delete-text-button");
+const uppercaseButton = document.querySelector(".uppercase-button");
+const lowercaseButton = document.querySelector(".lowercase-button");
+const capitalizeButton = document.querySelector(".capitalize-button");
 const outputText = document.querySelectorAll(".output-text");
 const copyButtons = document.querySelectorAll(".copy-button");
 
@@ -52,6 +55,28 @@ deleteTextButton.addEventListener("click", () => {
       smallTag.innerText = "Copiar";
     }
   })
+})
+
+// UPPERCASE BUTTON
+uppercaseButton.addEventListener("click", () => {
+  inputText.value = inputText.value.toUpperCase();
+  inputText.dispatchEvent(new Event("input"));
+  inputText.focus();
+})
+
+// LOWERCASE BUTTON
+lowercaseButton.addEventListener("click", () => {
+  inputText.value = inputText.value.toLowerCase();
+  inputText.dispatchEvent(new Event("input"));
+  inputText.focus();
+})
+
+// CAPITALIZE BUTTON
+capitalizeButton.addEventListener("click", () => {
+  const text = inputText.value.toLowerCase();
+  inputText.value = text.charAt(0).toUpperCase() + text.slice(1);
+  inputText.dispatchEvent(new Event("input"));
+  inputText.focus();
 })
 
 // COPY TEXT
