@@ -276,20 +276,21 @@ button:hover {
 }
 
 .footer p {
-  font-size: 1.6rem;
   color: var(--text-color);
+  font-size: 1.6rem;
+  line-height: 1.4em;
   opacity: .85;
+  margin-bottom: 1.6rem;
 }
 
 .footer-icons {
-  margin-top: 1.6rem;
   display: flex;
   gap: 1rem;
 }
 
 .footer-icons svg {
-  width: 26px;
-  height: 26px;
+  width: 3.6rem;
+  height: 3.6rem;
   fill: var(--text-color);
   cursor: pointer;
   transition: .4s ease;
@@ -325,6 +326,10 @@ button:hover {
 
   .section-2 p {
     width: 90%;
+  }
+
+  .footer-icons svg:hover {
+    transform: scale(1);
   }
 }
 
