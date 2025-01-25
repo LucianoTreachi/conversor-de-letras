@@ -27,6 +27,7 @@ html {
 body {
   background: #1b2027;
   background: linear-gradient(to top, #000000, #031718);
+  color: var(--text-color);
   min-height: 100vh;
   letter-spacing: 0.3px;
 }
@@ -37,6 +38,10 @@ button {
   font-family: inherit;
 }
 
+input {
+  color: inherit;
+}
+
 button {
   cursor: pointer;
   transition: opacity 0.3s;
@@ -45,6 +50,7 @@ button {
 button:hover {
   opacity: 0.85;
 }
+
 
 /* SECTION 1 */
 /* Row 1 */
@@ -69,7 +75,6 @@ button:hover {
 .paragraph {
   font-size: 2rem;
   line-height: 1.3em;
-  color: var(--text-color);
 }
 
 .container-input {
@@ -80,7 +85,6 @@ button:hover {
 .label {
   display: block;
   font-size: 1.8rem;
-  color: var(--text-color);
   opacity: 0.85;
   margin-bottom: 1rem;
 }
@@ -92,7 +96,6 @@ button:hover {
   border: 2px solid #a6adbb30;
   border-radius: 10px;
   font-size: 1.8rem;
-  color: var(--text-color);
   padding: 1.6rem;
   padding-right: 5rem;
   transition: .3s;
@@ -100,7 +103,6 @@ button:hover {
 
 .input::placeholder {
   letter-spacing: 0.5px;
-  color: var(--text-color);
   opacity: .65;
 }
 
@@ -155,7 +157,6 @@ button:hover {
 
 .outer-box span {
   font-size: 1.6rem;
-  color: var(--text-color);
   opacity: .85;
   display: inline-block;
   margin-left: 1rem;
@@ -182,7 +183,6 @@ button:hover {
 
 .output-text {
   font-size: 2rem;
-  color: var(--text-color);
   word-break: break-all;
 }
 
@@ -263,7 +263,6 @@ button:hover {
 
 .section-2 p {
   font-size: 1.8rem;
-  color: var(--text-color);
   line-height: 1.3em;
   text-wrap: balance;
   width: 70%;
@@ -276,7 +275,6 @@ button:hover {
 }
 
 .footer p {
-  color: var(--text-color);
   font-size: 1.6rem;
   line-height: 1.4em;
   opacity: .85;
