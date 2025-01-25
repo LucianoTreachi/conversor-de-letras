@@ -111,17 +111,17 @@ button:hover {
 .delete-text-button {
   border: none;
   background-color: var(--title-color);
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 3.2rem;
+  height: 3.2rem;
   position: absolute;
-  top: 4.6rem;
-  right: 1.6rem;
+  top: 4.5rem;
+  right: 1.5rem;
   border-radius: .5rem;
 }
 
 .delete-text-button svg {
-  width: 25px;
-  height: 25px;
+  width: 2.2rem;
+  height: 2.2rem;
   fill: #1b2027;
   vertical-align: middle;
 }
@@ -309,11 +309,6 @@ button:hover {
 
   .input::placeholder {
     font-size: 1.6rem;
-  }
-
-  .delete-text-button svg {
-    width: 20px;
-    height: 20px;
   }
 
   .container-buttons button {
