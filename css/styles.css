@@ -243,6 +243,7 @@ button:hover {
   top: -10rem;
   left: 0;
   width: 3.6rem;
+  height: auto;
 }
 
 .section-2 .box-question {
