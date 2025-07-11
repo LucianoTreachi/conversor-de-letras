@@ -30,11 +30,9 @@
 
 ## Tecnologías utilizadas
 
-- **HTML:** Estructura y contenido.
-
-- **CSS:** Estilización y diseño responsivo.
-
-- **JavaScript:** Funcionalidad interactiva.
+- HTML
+- CSS
+- JavaScript
 
 ## Comprueba cómo funciona
 
